@@ -1,10 +1,6 @@
-var username = prompt("What is your name?");
-alert("Hello "+username+",have a good luck!");
-
 function finish(){
     alert("Game over.Have a nice day!");
 }
-
 function sayHello(){
     var response = prompt("What is your answer?");
     if (response=="西安") {
