@@ -31,7 +31,7 @@ reset
 ---------------------------------------------
 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
-pre, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
 figure, header, nav, section, article, aside, footer, figcaption {
   margin: 0;
@@ -40,9 +40,6 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
-a{
-  font-weight:bold;
-}
 
 .clearfix:after {
   content: ".";
@@ -80,7 +77,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: -apple-system,"Segoe UI";
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   background-color: #fbf3e1;
   font-size: 16px;
@@ -110,6 +107,7 @@ p {
   line-height: 30px;
   color: #265451;
 }
+
 
 
 
@@ -158,7 +156,7 @@ p {
 .navbar-nav .active > .nav-link{
 
     width:100%;
-    height:51px;
+    height:38px;
 
   border-bottom: .25rem solid transparent;
   border-bottom-color: #D9C9BA;
@@ -186,6 +184,12 @@ p {
 
 .nav-link:hover {
   color:#a39c83 !important;
+}
+
+.dropdown-item{
+  text-transform:none;
+  font-weight: 700;
+  font-size: 1.8rem;
 }
 
 /*
