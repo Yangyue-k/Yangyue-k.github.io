@@ -94,56 +94,71 @@ body{
   font-weight: 700;
   font-size: 1.8rem;
 }
+
 @media (max-width: 767px) {
-    /* 在较小的屏幕尺寸下进行调整 */
     .mazu {
-        width: 100%; /* 修改宽度为相对宽度 */
+        width: 100%;
         height: 100%;
-        left: 15%; /* 修改左边距为相对值 */
+        left: 15%;
     }
 
     .cloud-image {
-        max-width: 80px; /* 缩小云朵图像宽度 */
+        max-width: 80px;
         max-height: 80px;
     }
-}
-@media (min-width: 768px) {
-    /* 在较小的屏幕尺寸下进行调整 */
-    .mazu {
-        width: 70%; /* 修改宽度为相对宽度 */
-        height: 70%;
-        left: 15%; /* 修改左边距为相对值 */
+    .mazuz{
+      width:90%;
+      height:40%;
+      margin-top: 200px;
     }
+}
 
+@media (min-width: 768px) {
+    .mazu {
+        width: 70%;
+        height: 70%;
+        left: 15%;]
+    }
     .cloud-image {
-        max-width: 150px; /* 缩小云朵图像宽度 */
+        max-width: 150px;
         max-height: 150px;
     }
+    .mazuz{
+      width:70%;
+      height:70%;
+      margin-top: 200px;
+    }
 }
+/*
 @media (min-width: 992px) {
-    /* 在较小的屏幕尺寸下进行调整 */
+
     .mazu {
-        width: 970px; /* 修改宽度为相对宽度 */
-        left: 25%; /* 修改左边距为相对值 */
+        width: 970px;
+      left: 25%;
     }
 
     .cloud-image {
-        max-width: 250px; /* 缩小云朵图像宽度 */
+        max-width: 250px;
         max-height: 250px;
+    }
+    .mazuz{
+      margin-top: 150px;
     }
 }
 @media (min-width: 1200px) {
-    /* 在较小的屏幕尺寸下进行调整 */
     .mazu {
-        width: 100%; /* 修改宽度为相对宽度 */
-        left: 30%; /* 修改左边距为相对值 */
+        width: 100%;
+    left: 30%;
     }
 
     .cloud-image {
-        max-width: 350px; /* 缩小云朵图像宽度 */
+        max-width: 350px;
         max-height: 350px;
     }
-}
+    .mazuz{
+      margin-top: 10px;
+    }
+}*/
 .mazuz {
     z-index: 10;
     position: absolute;
