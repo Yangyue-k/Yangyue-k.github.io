@@ -333,7 +333,7 @@ width: 90%;
       overflow: hidden;
       writing-mode:vertical-rl;
       margin-top: -35px;
-
+     margin-left: -8px
   }
   .imgin1 img,.imgin2 img,.imgin3 img,.imgin4 img,.imgin5 img,.imgin6 img,.imgin7 img{
     margin-top:-35px  ;
@@ -344,7 +344,7 @@ width: 90%;
       top: 32%;
       left: 65%;
       color: white;
-      font-size: 30px;
+      font-size: 20px;
       writing-mode: vertical-lr;
       text-orientation: mixed;
     }
