@@ -230,6 +230,10 @@ a:hover {
 width: 90%;
 margin: 0 auto;
 }
+.info_section{
+background: linear-gradient(to right, #e4e2d3 50%, transparent 100%);
+}
+
 }
 /* section reveal */
 .reveal{
